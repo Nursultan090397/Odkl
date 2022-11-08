@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
@@ -8,6 +8,10 @@
 
 <form style="font-size: 25px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
 
+    <!--<div style="background-color: darkorange;display: flex; color: white; ">
+        <p style="margin-right: 301px;margin-left: 20px;">одноклассники</p>
+        <p>  Регистрация</p>
+    </div>-->
     <div style="background-color: orange;">
         <h1 style="margin-left: 380px; display: inline-block;color: white">
             <button style="background-color: darkorange;height: 50px;border: none; color: white"><h3>одноклассники</h3>  </button></h1>
@@ -15,10 +19,9 @@
     </div>
 
     <div style="display: flex; flex-direction:column; align-items:center;font-size: 12px;margin-top: 20px; ">
-        <!-- <div style="display: flex; "> -->
         <div  style="display: flex;align-items: center;">
-            <p style="margin-right: 20px;margin-left: -55px;">Имя</p>
-            <input style="height:20px;margin-right: 10px;width: 192px;" type="text " id="firstname" name="firstname"/>
+            <p style="margin-right: 24px;margin-left: -62px;">Имя</p>
+            <input style="height:20px;;width: 192px;" type="text " id="firstname" name="firstname"/>
 
         </div>
 
@@ -27,7 +30,6 @@
             <p style="margin-right: 20px;margin-left: -75px;"for="lastname">Фамилия</p>
             <input style="height:20px;margin-right: 10px;width: 192px;" type="text " id="lastname" name="lastname"/>
         </div>
-        <!-- </div> -->
         <div>
             <div style="display: flex; margin-top: 20px;">
                 <label style="margin-left: -26px;" >Дата рождения </label>
@@ -115,6 +117,7 @@
                         <option>2019</option>
                         <option>2020</option>
                         <option>2021</option>
+                        <option>2022</option>
                     </select>
                 </div>
             </div>
@@ -131,7 +134,7 @@
                     Страна проживания
                 </p>
 
-                <select style="height:20px;width: 192px;">
+                <select style="height:20px;width: 192px; font-size: 12px;">
                     <option>Россия</option>
                     <option>Кыргызстан</option>
                     <option>Узбекистан</option>
@@ -146,25 +149,23 @@
 
             <div style="display: flex;margin-top: 20px;">
                 <label for="date" style="margin-right:20px ;margin-left:25px;"> Город </label>
-                <input type="text" city="сity" name="city"/>
+                <input style="width: 192px;" id="date"type="text" city="сity" name="city"/>
 
             </div>
 
             <div style="display: flex;align-items:center; margin-top: 20px;">
 
                 <p style="margin-right: 20px;margin-left: -48px;">Электронная почта</p>
-                <input  style="height:20px" type="text" placeholder="Введите вашу почту" name="email"  required>
+                <input  style="height:20px;width: 192px;font-size: 12px;" type="text" placeholder="Введите вашу почту" name="email"  required>
             </div>
             <div style="display: flex;align-items: center;">
                 <p style="margin-right: 20px;margin-left: -52px;">Придумайте пароль</p>
-                <input  style="height:20px;" type="password" placeholder="Введите пароль" name="psw" required>
+                <input  style="height:20px;width: 192px;font-size: 12px;" type="password" placeholder="Введите пароль" name="psw" required>
 
             </div>
-            <!-- <div > -->
-            <p  style="font-size: 13px;margin-left: 75px;margin-top: 20px">Нажмая кнопку "Зарегистрироваться",<br>вы соглашаетесь с <span style="border-bottom: 2px dotted gray;">Лицензтонным соглашением</span></p>
-            <!-- </div> -->
+            <p  style="font-size: 13px;margin-left: 78px;margin-top: 20px">Нажмая кнопку "Зарегистрироваться",<br>вы соглашаетесь с <span style="border-bottom: 2px dotted gray;">Лицензионным соглашением</span></p>
             <p>
-            <div  style="margin-top: 20px;margin-left:75px">
+            <div  style="margin-top: 20px;margin-left:78px">
                 <button type="submit" style="background-color: limegreen;border: none;border-radius: 50px;width: 180px;color: white;height: 30px;font-weight: 700;">Зарегистрироваться</button>
             </div>
 
